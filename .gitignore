@@ -1,0 +1,11 @@
+.env
+.vscode
+assets/
+!assets/Example.json
+/built/*
+!/built/.dirstruct
+docs/
+data/*
+!data/sample_text.txt
+logs/
+node_modules/

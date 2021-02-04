@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "strict": true,
+        "lib": ["es2020"],
+        "baseUrl": "./src",
+        "paths": {
+            "@root/*": ["./*"]
+        },
+        "target": "es2020",
+        "module":"commonjs",
+        "esModuleInterop": true,
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin",
+                "alwaysShowRuleFailuresAsWarnings": true,
+                "ignoreDefinitionFiles": true,
+                "configFile": "./.eslintrc.js",
+                "suppressWhileTypeErrorsPresent": false
+            }
+        ]
+    },
+    "include": [
+        "./.eslintrc.js",
+        "./src/**/*",
+        "./test/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        ".npm"
+    ]
+}
