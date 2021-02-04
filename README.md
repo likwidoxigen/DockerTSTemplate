@@ -10,4 +10,4 @@ Also take a look at how we mount folders so that relative access is preserved.
 
 Do not use this for production.
 
-I will likely not keep this as updated as I should. I encourage you to use (tsconfig/bases)[https://github.com/tsconfig/bases] as reasonable recommendations for your tsconfig.
+I will likely not keep this as updated as I should. I encourage you to use [tsconfig/bases](https://github.com/tsconfig/bases) as reasonable recommendations for your tsconfig.
